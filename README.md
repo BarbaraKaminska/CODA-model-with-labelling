@@ -10,5 +10,5 @@ This repository was created to support the manuscript 'The effect of community-b
 3b) "labels_level.csv" describes the time evolution of the distribution of agents holding a given preferred choice within the labels; the columns are:
 'timestep',label', 'choices-distribution'. 
 The latter is a vector of number of agents with given preferred choice. 
-3c) "agents_level.csv" contains data on how the strength of each choice evolves for individual agents; the columns are:
+3c) "agents_level_p1.csv" and "agents_level_p2.csv" contains data on how the strength of each choice evolves for individual agents; since the file was to big for github it was divided into 2 parts; the columns are:
 'timestep','agent','label','pref_choice','strenght-of-choices', where 'pref-choice' denotes preferred choice (the one with highest strength), 'strenght-of-choices' is a vector of strengths of each choice. 
